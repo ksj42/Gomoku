@@ -1,0 +1,5 @@
+com.example.myapplication.test.app-core-1.6.1-0 C:\Users\zeroj\.gradle\caches\transforms-4\e6abdef18a420c05ef46e716750def8d\transformed\core-1.6.1\res
+com.example.myapplication.test.app-androidTest-1 E:\Project\10_Gomoku\05_App\app\build\generated\res\resValues\androidTest\debug
+com.example.myapplication.test.app-mergeDebugAndroidTestResources-2 E:\Project\10_Gomoku\05_App\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.myapplication.test.app-mergeDebugAndroidTestResources-3 E:\Project\10_Gomoku\05_App\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.myapplication.test.app-debugAndroidTest-4 E:\Project\10_Gomoku\05_App\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

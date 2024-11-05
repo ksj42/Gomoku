@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Project\10_Gomoku\05_App\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from E:\Project\10_Gomoku\05_App\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from E:\Project\10_Gomoku\05_App\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from E:\Project\10_Gomoku\05_App\app\src\main\AndroidManifest.xml:2:1-29:12
+ADDED from E:\Project\10_Gomoku\05_App\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from E:\Project\10_Gomoku\05_App\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from E:\Project\10_Gomoku\05_App\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from E:\Project\10_Gomoku\05_App\app\src\main\AndroidManifest.xml:2:1-30:12
 MERGED from [androidx.databinding:viewbinding:8.6.0] C:\Users\zeroj\.gradle\caches\transforms-4\72e5a8c0b1d7aaa10111d9e8bd0f7fab\transformed\viewbinding-8.6.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-common:2.8.2] C:\Users\zeroj\.gradle\caches\transforms-4\c531bdae0c69726a2a8233a5218684d8\transformed\navigation-common-2.8.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.8.2] C:\Users\zeroj\.gradle\caches\transforms-4\e793ac500bd326d9568f105f6900ab68\transformed\navigation-common-ktx-2.8.2\AndroidManifest.xml:2:1-7:12
@@ -75,8 +75,8 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\zeroj\.gradle\caches\transform
 	xmlns:android
 		ADDED from E:\Project\10_Gomoku\05_App\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from E:\Project\10_Gomoku\05_App\app\src\main\AndroidManifest.xml:5:5-27:19
-INJECTED from E:\Project\10_Gomoku\05_App\app\src\main\AndroidManifest.xml:5:5-27:19
+ADDED from E:\Project\10_Gomoku\05_App\app\src\main\AndroidManifest.xml:5:5-28:19
+INJECTED from E:\Project\10_Gomoku\05_App\app\src\main\AndroidManifest.xml:5:5-28:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\zeroj\.gradle\caches\transforms-4\2f76fef6d31aee2724e42b3fd40107fe\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\zeroj\.gradle\caches\transforms-4\2f76fef6d31aee2724e42b3fd40107fe\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\zeroj\.gradle\caches\transforms-4\ad90476c93ccdf3c01b8dcb3d4a638d1\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -137,10 +137,14 @@ category#android.intent.category.LAUNCHER
 ADDED from E:\Project\10_Gomoku\05_App\app\src\main\AndroidManifest.xml:23:17-77
 	android:name
 		ADDED from E:\Project\10_Gomoku\05_App\app\src\main\AndroidManifest.xml:23:27-74
-activity#com.example.myapplication.SubActivity
-ADDED from E:\Project\10_Gomoku\05_App\app\src\main\AndroidManifest.xml:26:9-58
+activity#com.example.myapplication.ActivityTwoplayerview
+ADDED from E:\Project\10_Gomoku\05_App\app\src\main\AndroidManifest.xml:26:9-68
 	android:name
-		ADDED from E:\Project\10_Gomoku\05_App\app\src\main\AndroidManifest.xml:26:19-46
+		ADDED from E:\Project\10_Gomoku\05_App\app\src\main\AndroidManifest.xml:26:19-56
+activity#com.example.myapplication.ActivityAiplayview
+ADDED from E:\Project\10_Gomoku\05_App\app\src\main\AndroidManifest.xml:27:9-65
+	android:name
+		ADDED from E:\Project\10_Gomoku\05_App\app\src\main\AndroidManifest.xml:27:19-53
 uses-sdk
 INJECTED from E:\Project\10_Gomoku\05_App\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\Project\10_Gomoku\05_App\app\src\main\AndroidManifest.xml

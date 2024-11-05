@@ -4,12 +4,12 @@
         "source": "C:\\Users\\zeroj\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-50:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\zeroj\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-48:\\layout_fragment_gallery.xml.flat",
-        "source": "C:\\Users\\zeroj\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-50:\\layout\\fragment_gallery.xml"
-    },
-    {
         "merged": "C:\\Users\\zeroj\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-48:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\zeroj\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-50:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeroj\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-48:\\layout_fragment_gallery.xml.flat",
+        "source": "C:\\Users\\zeroj\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-50:\\layout\\fragment_gallery.xml"
     },
     {
         "merged": "C:\\Users\\zeroj\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-48:\\drawable_playbord.png.flat",
@@ -72,10 +72,6 @@
         "source": "C:\\Users\\zeroj\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-50:\\menu\\main.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-48:/layout_two_player_view.xml.flat",
-        "source": "com.example.myapplication.app-main-50:/layout/two_player_view.xml"
-    },
-    {
         "merged": "C:\\Users\\zeroj\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-48:\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\zeroj\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-50:\\mipmap-xhdpi\\ic_launcher.webp"
     },
@@ -108,8 +104,16 @@
         "source": "C:\\Users\\zeroj\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-50:\\layout\\fragment_home.xml"
     },
     {
+        "merged": "C:\\Users\\zeroj\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-48:\\layout_ai_play_view.xml.flat",
+        "source": "C:\\Users\\zeroj\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-50:\\layout\\ai_play_view.xml"
+    },
+    {
         "merged": "C:\\Users\\zeroj\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-48:\\drawable_playbord3.png.flat",
         "source": "C:\\Users\\zeroj\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-50:\\drawable\\playbord3.png"
+    },
+    {
+        "merged": "C:\\Users\\zeroj\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-48:\\layout_ai_play.xml.flat",
+        "source": "C:\\Users\\zeroj\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-50:\\layout\\ai_play.xml"
     },
     {
         "merged": "C:\\Users\\zeroj\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-48:\\navigation_mobile_navigation.xml.flat",
@@ -118,6 +122,10 @@
     {
         "merged": "C:\\Users\\zeroj\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-48:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\zeroj\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-50:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/layout_ai_play_view.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/layout/ai_play_view.xml"
     },
     {
         "merged": "C:\\Users\\zeroj\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-48:\\drawable_ic_menu_camera.xml.flat",

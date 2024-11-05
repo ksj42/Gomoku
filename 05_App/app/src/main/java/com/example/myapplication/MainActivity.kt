@@ -50,7 +50,14 @@ class MainActivity : AppCompatActivity() {
         // 버튼2 클릭 시 새로운 액티비티로 이동
         val button2 = findViewById<Button>(R.id.button2)
         button2.setOnClickListener {
-            val intent = Intent(this, SubActivity::class.java)
+            val intent = Intent(this, ActivityTwoplayerview::class.java)
+            startActivity(intent)  // 새로운 액티비티 시작
+        }
+
+        // 버튼3 클릭 시 새로운 액티비티로 이동
+        val button3 = findViewById<Button>(R.id.button3)
+        button3.setOnClickListener {
+            val intent = Intent(this, ActivityAiplayview::class.java)
             startActivity(intent)  // 새로운 액티비티 시작
         }
 

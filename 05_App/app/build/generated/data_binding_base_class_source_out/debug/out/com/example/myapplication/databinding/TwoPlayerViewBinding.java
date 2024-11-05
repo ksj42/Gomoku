@@ -9,7 +9,7 @@ import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
-import com.example.myapplication.CustomBoardView3;
+import com.example.myapplication.CustomBoardView2;
 import com.example.myapplication.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -20,10 +20,10 @@ public final class TwoPlayerViewBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final CustomBoardView3 boardView;
+  public final CustomBoardView2 boardView;
 
   private TwoPlayerViewBinding(@NonNull ConstraintLayout rootView,
-      @NonNull CustomBoardView3 boardView) {
+      @NonNull CustomBoardView2 boardView) {
     this.rootView = rootView;
     this.boardView = boardView;
   }
@@ -56,7 +56,7 @@ public final class TwoPlayerViewBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.boardView;
-      CustomBoardView3 boardView = ViewBindings.findChildViewById(rootView, id);
+      CustomBoardView2 boardView = ViewBindings.findChildViewById(rootView, id);
       if (boardView == null) {
         break missingId;
       }

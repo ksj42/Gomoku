@@ -8,6 +8,10 @@
         "source": "C:\\Users\\zeroj\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-50:\\layout\\content_main.xml"
     },
     {
+        "merged": "C:\\Users\\zeroj\\.gradle\\daemon\\8.7\\com.example.myapplication.app-mergeDebugResources-47:\\layout\\ai_play_view.xml",
+        "source": "C:\\Users\\zeroj\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-50:\\layout\\ai_play_view.xml"
+    },
+    {
         "merged": "C:\\Users\\zeroj\\.gradle\\daemon\\8.7\\com.example.myapplication.app-mergeDebugResources-47:\\layout\\fragment_home.xml",
         "source": "C:\\Users\\zeroj\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-50:\\layout\\fragment_home.xml"
     },
@@ -20,8 +24,8 @@
         "source": "C:\\Users\\zeroj\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-50:\\layout\\nav_header_main.xml"
     },
     {
-        "merged": "com.example.myapplication.app-mergeDebugResources-47:/layout/two_player_view.xml",
-        "source": "com.example.myapplication.app-main-50:/layout/two_player_view.xml"
+        "merged": "com.example.myapplication.app-mergeDebugResources-47:/layout/ai_play_view.xml",
+        "source": "com.example.myapplication.app-main-50:/layout/ai_play_view.xml"
     },
     {
         "merged": "C:\\Users\\zeroj\\.gradle\\daemon\\8.7\\com.example.myapplication.app-mergeDebugResources-47:\\layout\\app_bar_main.xml",
@@ -34,5 +38,9 @@
     {
         "merged": "C:\\Users\\zeroj\\.gradle\\daemon\\8.7\\com.example.myapplication.app-mergeDebugResources-47:\\layout\\fragment_slideshow.xml",
         "source": "C:\\Users\\zeroj\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-50:\\layout\\fragment_slideshow.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeroj\\.gradle\\daemon\\8.7\\com.example.myapplication.app-mergeDebugResources-47:\\layout\\ai_play.xml",
+        "source": "C:\\Users\\zeroj\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-50:\\layout\\ai_play.xml"
     }
 ]

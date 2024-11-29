@@ -1,0 +1,8 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="-10dp"> <!-- 윗부분 숨김 효과 -->
+        <bitmap
+            android:src="@drawable/img_background"
+            android:gravity="fill"
+            android:tileMode="disabled" />
+    </item>
+</layer-list>

@@ -7,9 +7,9 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_history">History</string>
+    <string name="menu_rule">Rule</string>
+    <string name="menu_invincible">Invincible Tip</string>
 
     <string name="String_id_textview_01">Hello world</string>
     <string name="String_imageButton">Push go</string>

@@ -301,8 +301,8 @@
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
-                            <entry key="outputName" value="game" />
-                            <entry key="sourceFile" value="D:\Project\01_AppGomoku\Img\슬라이드\game.svg" />
+                            <entry key="outputName" value="invincivle" />
+                            <entry key="sourceFile" value="D:\Project\01_AppGomoku\Img\슬라이드\I.svg" />
                           </map>
                         </option>
                       </PersistentState>

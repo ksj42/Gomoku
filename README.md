@@ -1,4 +1,4 @@
-# Gomoku
+# Gomoku Application
 
-## Branch v1.0.1
-## Branch v1.0.2 (new)
+## Branch v1.0.0
+## Branch v1.0.1 (new)

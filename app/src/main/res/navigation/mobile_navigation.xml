@@ -22,4 +22,5 @@
         android:name="com.example.myapplication.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_invincible"
         tools:layout="@layout/fragment_slideshow" />
+
 </navigation>

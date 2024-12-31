@@ -12,8 +12,8 @@
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:background="@drawable/playbord3"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="126dp" />
+            tools:layout_editor_absoluteX="38dp"
+            tools:layout_editor_absoluteY="16dp" />
 
         <ImageButton
             android:id="@+id/imageButton"
@@ -30,6 +30,23 @@
             app:layout_constraintVertical_bias="0.943"
             app:srcCompat="@drawable/btn_go"
             android:onClick="onGoClick"/>
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="381dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"
+        android:text="1. Put a black stone first."
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/boardView"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/boardView"
+        app:layout_constraintVertical_bias="0.076" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

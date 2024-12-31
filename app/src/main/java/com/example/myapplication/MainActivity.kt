@@ -17,16 +17,15 @@ import android.widget.TextView
 import android.animation.ObjectAnimator
 import android.content.Intent
 import android.util.Log
+import android.view.MenuItem
 import android.widget.ImageButton
+import androidx.core.view.GravityCompat
+import androidx.navigation.NavOptions
+import com.example.myapplication.ui.gallery.GalleryFragment
 
-class MainActivity : AppCompatActivity() {
-
+class MainActivity : AppCompatActivity(){
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
-
-    //디버깅용
-
-    //디버깅용
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -52,52 +51,39 @@ class MainActivity : AppCompatActivity() {
             ), drawerLayout
         )
         // 자동으로 각 네비게이션 타이틀을 앱바에 출력하는 코드
+        // 왼쪽에 삼선 표기 기능
         setupActionBarWithNavController(navController, appBarConfiguration)
+        // 네비게이션의 버튼 기능 활성화
+        // 각 아이템을 클릭했을때 액티비티 활성화
         navView.setupWithNavController(navController)
 
-
-
-        // Code start
-
-        // 버튼1 클릭 시 새로운 액티비티로 이동
-        val button1 = findViewById<Button>(R.id.button1)
-        button1.setOnClickListener {
-            val intent = Intent(this, ActivityTamaguchiview::class.java)
-            startActivity(intent)  // 새로운 액티비티 시작
+        // 이코드가 있어야 프래그먼트 그래프가 작종함
+        binding.navView.setNavigationItemSelectedListener { menuItem ->
+            when (menuItem.itemId) {
+                R.id.nav_home -> {
+                    navController.navigate(R.id.nav_home)
+                }
+                R.id.nav_gallery -> {
+                    navController.navigate(R.id.nav_gallery)
+                }
+                R.id.nav_slideshow -> {
+                    navController.navigate(R.id.nav_slideshow)
+                }
+            }
+            binding.drawerLayout.closeDrawer(GravityCompat.START) // Drawer 닫기
+            true
         }
-        // 버튼2 클릭 시 새로운 액티비티로 이동
-        val button2 = findViewById<Button>(R.id.button2)
-        button2.setOnClickListener {
-            val intent = Intent(this, ActivityTwoplayerview::class.java)
-            startActivity(intent) // 새로운 액티비티 시작
-        }
-
-        // 버튼3 클릭 시 새로운 액티비티로 이동
-        val button3 = findViewById<Button>(R.id.button3)
-        button3.setOnClickListener {
-            val intent = Intent(this, ActivityAiplayview::class.java)
-            startActivity(intent)  // 새로운 액티비티 시작
-        }
-
-
-        //val textView = findViewById<TextView>(R.id.id_textview_01)  // TextView를 찾는 코드
-//        if (textView != null) {
-//            Log.e("MainActivity", "TextView를 찾을 수 없습니다.")
-//        //textView.text = "새로운 텍스트"
-//        } else {
-//            Log.e("MainActivity", "TextView를 찾을 수 없습니다.")
-//        }
-
-
-        //Code finish
     }
 
+    // 오른쪽 위 세팅 아이콘 기능
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         // Inflate the menu; this adds items to the action bar if it is present.
         menuInflater.inflate(R.menu.main, menu)
         return true
     }
 
+    // 프래그먼트 그래프 설정 코드
+    // 없으면 메뉴 클릭해도 반응없음
     override fun onSupportNavigateUp(): Boolean {
         val navController = findNavController(R.id.nav_host_fragment_content_main)
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()

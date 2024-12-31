@@ -1,22 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.gallery.GalleryFragment">
 
-    <TextView
-        android:id="@+id/text_gallery"
+    <!-- AppBarLayout to handle the App Bar -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:theme="@style/Theme.MyApplication.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/Theme.MyApplication.PopupOverlay" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- ScrollView to allow scrolling content, without the app:layout_behavior on AppBarLayout -->
+    <android.widget.ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+        android:layout_below="@id/appBarLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- 렌주 룰 제목과 설명 -->
+            <TextView
+                android:id="@+id/text_renju_rule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nRenju Rule"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:src="@drawable/renju33"
+                android:scaleType="fitXY"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/text_renju_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nRenju rules are a variation of the Gomoku game, imposing the following restrictions for both players:\n\n1. A player wins by placing 5 consecutive stones.\n2. No player can place more than two consecutive sets of 5 stones.\n3. During the initial moves, players must place stones near the center.\n4. The game ends with a victory if a line of 5 or more stones is formed horizontally, vertically, or diagonally.\n\nRenju rules are based on the goal of aligning 5 stones in a row in Gomoku, with additional strategic elements included."
+                android:textSize="16sp"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="24dp" />
+
+            <!-- 타라구치-10 룰 제목과 설명 -->
+            <TextView
+                android:id="@+id/text_taraguchi_rule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nTaraguchi-10 Rule"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingBottom="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/renju44"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/text_taraguchi_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nCategory: Renju\n\nRated: Yes\n- The black player puts the first move in the center of the board.\n- The other player may swap.\n- The white player will put the 2nd move within 3x3 central square.\n- The other player may swap.\n- The black player will put the 3rd move within 5x5 central square.\n- The other player may swap.\n- The white player will put the 4th move within 7x7 central square.\n\nThe choice 1 (after the 4th move):\n- The other player may swap.\n- The black player will put the 5th move within 9x9 central square.\n- The other player may swap.\n- The white player plays the 6th move anywhere on board.\n\nThe choice 2 (after the 4th move):\n- The black player puts ten 5th moves anywhere on board (symmetrical moves are not allowed).\n- The white player chooses one of the offered 5th moves and plays the 6th move anywhere on board."
+                android:textSize="16sp"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="24dp" />
+
+        </LinearLayout>
+    </android.widget.ScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
